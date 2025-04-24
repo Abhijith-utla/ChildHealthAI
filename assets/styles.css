@@ -1,0 +1,18 @@
+/* Fix border and colors for dcc.Dropdown */
+.dash-dropdown .Select-control {
+    border: 1px solid rgb(107, 107, 107) !important;
+    background-color: #1E1E1E !important;
+    color: #fff !important;
+    box-shadow: none !important;
+  }
+  
+  .dash-dropdown .Select-value-label {
+    color: #1E90FF !important;  /* Optional: highlight selected value */
+  }
+  
+  .dash-dropdown .Select-menu-outer {
+    background-color: #1E1E1E;
+    color: #fff;
+    border: 1px solid lightgray;
+  }
+  
